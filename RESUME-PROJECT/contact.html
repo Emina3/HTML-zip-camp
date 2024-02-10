@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1-  description, web sayfalarinin kisa bir aciklmasini icerir-->
+    <meta name="description" content="Developer John Connor Resume">
+    <title>Document</title>
+    <!-- 2-link ile CSS'e bagladik -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 3-google font alalim -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- 4- font-family: 'Montserrat', sans-serif; sekinde CSS'e yapistir-->
+</head>
+<body>
+    <!-- 6- Header kismi (header semantiktir) -->
+    <header>
+​
+        <div class="title">
+            <span></span> <!-- yuvarlak icin actik -->
+            <h2>John Connor</h2>
+            <em>Web Developer</em>
+        </div>
+​
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="resume.html">Resume</a> |
+            <a href="contact.html">Contact</a> 
+        </nav>
+        <!-- 7 icin CSS'e git -->
+    </header>
+​
+    <!-- Body kismi -->
+    <!-- 14 main acalim. tasiyici bir div icinde, resim icin 1 div, yazilar icin baska bir div acalim-->
+    <main>
+​
+        
+        <h1><span></span>Contact</h1> <!-- span'i yuvarlak icin actik -->
+
+        <div class="card">
+          <form action="https://formsubmit.co/eminabayazitli34@gmail.com" method="POST"  target="_blank">
+          <div class="for-row">
+            <label for="firstname" required>Firstname</label>
+            <input type="text" name="firstname" id="firstname">
+          </div>
+
+          <div class="for-row">
+            <label for="lasttname" required>Lastname</label>
+            <input type="text" name="lastname" id="lastname">
+          </div>
+
+          <div class="for-row">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="info@example.com">
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5"></textarea>
+
+          </div>
+
+          <button type="submit">Send</button>
+
+          </form>
+        </div>
+        
+​
+ 
+​
+    </main>
+    <!-- 15-resim ve yazilari yanyana getirmek icin CSS'e git -->
+
+    <!-- footer kismi -->
+    <!-- 18 phone, email, follow me ve copyright bolumlerini olusturalim-->
+    <footer>
+        <div>
+            <h3>Phone</h3>
+            <p><a href="tel:+905325556677">(532)555-66-77</a></p>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <p><a href="mailto:john@connor.com">john@connor.com</a></p>
+        </div>
+
+        <div>
+            <h3>Follow Me</h3>
+            <p>
+                <a href="https://linkedin.com" target="_blank">Linkedin</a> |
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </p>
+        </div>​
+        <div>
+            <h3>Copyright</h3>
+            <p>&copy;2023 - Jonh Connor</p>
+        </div>
+        <!-- 19-index.html bitti. CSS'e git -->
+
+    </footer>
+
+</body>
+</html>

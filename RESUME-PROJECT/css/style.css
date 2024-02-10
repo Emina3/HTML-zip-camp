@@ -1,0 +1,151 @@
+/* 5- */
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem; /* icteki elemanlar body'nin kenarlarindan uzaklasacak */
+}
+
+/* x3 */
+
+.form-row{
+    margin-bottom: 1rem; /* inputlar'in arasini actik*/
+}
+label{
+    display: block;
+}
+textarea,
+input{
+    width: 100%;
+    padding: 0.5rem;
+    border:1px solid gray;
+}
+form{
+    width: 100%;
+}
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    background-color: burlywood;
+    font-size: 1.2rem;
+}
+
+
+
+/* Header bolumu - ust kisim */
+/* 7 */
+header{
+    display: flex; /* title ve nav bloklarini yanyana getirdik */
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center; /* dikeyde hizalama yaptik */
+    background-color: burlywood;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+}
+/* 8-john ile web developer'i yanyana getirelim */
+header .title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+/* 9-h'nin otomatik margin'inin kaldiralim ki, bosluklari biz belirleyelim */
+header h2{
+    margin: 0;
+}
+/* 10- yuvarlak uzerinde calisalim*/
+main h1 span,
+header .title span{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    border-radius: 50%; /* 50% kare bir kutuyu yuvarlak yapar */
+    display: inline-block;
+}
+
+/* 11-ust sagdaki menu uzerinde calisalim */
+header nav a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+ /* 12 - menudaki linklerin uzerine gelince*/
+ header nav a:hover{
+    color: bisque;
+ }
+
+ /*13- Body'i olusturmak icin HTML'e gidelim*/
+
+ /*Main Bolumu*/
+ /* 16 */
+
+ main{
+    padding: 5rem 20%;
+ }
+
+ main .home{
+    display: flex;
+    align-items: center;/* resimle yazilari dikeyde hizaladik */
+    gap: 2rem;/* resimle yazilarin arasini actik */
+ }
+
+ main .profile img{/* resim uzerinde calistik */
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 1rem solid burlywood;
+ }
+/* butonlar uzerinde calisalim */
+ main .button a{
+    background-color: burlywood;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 5rem;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 3px 3px 5px black;/* 3px saga, 3px asagi, 5px bulaniklik */
+    margin-right: 1rem;
+
+ }
+
+ main .button a:hover{
+    background-color: aquamarine;
+ }
+ /* 17-footer'i olusturmak icin HTML'e git */
+
+ /* footer bolumu */
+ /* 20 */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    flex-wrap: wrap;
+}
+
+/* a4 yuvarlak ve resume yazisi*/
+
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+/* a5 card*/
+main .card{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid burlywood;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 3px 3px 7px burlywood;
+    margin-bottom: 2rem;
+}
+
+main section{
+    margin-bottom: 4rem;
+}
+
+/* - a6 card bitti.kopyalayalim.HTML'e git*/
